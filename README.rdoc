@@ -22,7 +22,7 @@ https://github.com/jleverenz/milk_cap
 
 (Note since version 0.2, it's OK to not set these environment variables and to pass their values for each method with :api_key, :shared_secret, :frob and :auth_token optional parameters (see test_2 of test/tasks_test.rb))
 
-You have to apply for the first two ones at http://www.rememberthemilk.com/services/api/keys.rtm
+You have to apply for the first two ones at https://www.rememberthemilk.com/services/api/keys.rtm
 
 Once you have the API key and the shared secret, you have to get the frob and the auth token. Fire your 'irb' and
 
@@ -31,7 +31,7 @@ Once you have the API key and the shared secret, you have to get the frob and th
 
   please visit this URL with your browser and then hit 'enter' :
 
-  http://www.rememberthemilk.com/services/auth/?api_sig=70036e47c38da170fee431f04e29e8f0&frob=fa794036814b78fddf3e5641fe7c37f80e7d91fc&perms=delete&api_key=7f07e4fc5a944bf8c02a7d1e45c79346
+  https://www.rememberthemilk.com/services/auth/?api_sig=70036e47c38da170fee431f04e29e8f0&frob=fa794036814b78fddf3e5641fe7c37f80e7d91fc&perms=delete&api_key=7f07e4fc5a944bf8c02a7d1e45c79346
 
 visit, the given URL, you should finally be greeted by a message like "You have successfully authorized the application API Application. You may now close this window and continue the authentication process with the application that sent you here.", hit enter...
 

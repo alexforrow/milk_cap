@@ -47,8 +47,8 @@ module RTM
 
   VERSION = '0.5.2'
 
-  AUTH_ENDPOINT = "http://www.rememberthemilk.com/services/auth/"
-  REST_ENDPOINT = "http://api.rememberthemilk.com/services/rest/"
+  AUTH_ENDPOINT = "https://www.rememberthemilk.com/services/auth/"
+  REST_ENDPOINT = "https://api.rememberthemilk.com/services/rest/"
 
   # Signs the RTM request (sets the 'api_sig' parameter).
   #
