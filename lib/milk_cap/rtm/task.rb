@@ -148,6 +148,7 @@ module MilkCap::RTM
 
         r = o[resource_name]
         o = r if r
+        return [] unless o.include?('list')
         o['list']
       end
 

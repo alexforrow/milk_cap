@@ -30,7 +30,7 @@ module MilkCap::RTM
       :list_id
 
     milk_attr \
-      :name, :sort_order, :smart, :archived, :deleted, :position, :locked
+      :name, :sort_order, :smart, :archived, :deleted, :position, :locked, :filter
 
     def initialize (h)
 
